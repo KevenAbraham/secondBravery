@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(../imagens/signup-image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 100px 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+img {
+    padding: 80px;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+

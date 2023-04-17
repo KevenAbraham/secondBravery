@@ -1,0 +1,162 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/signup-image.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2e2d2d;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 15px;
+}
+
+.cart-container {
+    width: 80%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.header {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serach-box {
+    background: #2e2d2d;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-btn {
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #232525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+    color: #232525;
+}
+
+table {
+    position: fixed;
+    left: 25%;
+    width: 50%; /* ajusta o tamanho da tabela em largura */
+    font-size: 20px;
+    border: 1px solid #000;
+    border-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+    color: #000;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+.link {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.link a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;     
+    letter-spacing: 0.5px;
+    padding: 0 5px;
+}
+
+.link a:after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: #000;
+}
+
+.link a:hover:after {
+    width: 100%;
+}
+
+table {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* ajusta o tamanho da tabela em largura */
+    font-size: 20px;
+    border-spacing: 5px;
+}
+
+td {
+    background: #fff;
+    color: #000;
+}
+
+th {
+    color: #000;
+    font-weight: 100;
+}
+
+@media (max-width: 1366px) {
+    table {
+        width: 78%;
+    }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravery</title>
+    <link rel="icon" type="image/x-icon" href="../imagens/bravery-logo.png">
+    <style>
+        *, 
+        *:before
+        *:after {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: url(../imagens/signup-image.png);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 100px;
+            color: white;
+        }
+
+        .credit {
+            position: relative;
+            bottom: -50px;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+        }
+
+        .box {
+            height: 50vh;
+            width: 70vw;
+            min-width: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        a {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-size: 35px;     
+            letter-spacing: 0.5px;
+            padding: 0 10px;
+        }
+
+        a:after {
+            content: "";
+            position: absolute;
+            background-color: #fff;
+            height: 3px;
+            width: 0%;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        a:hover:after {
+            width: 100%;
+        }
+
+        button {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            padding: 14px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            align-items: center;
+            transition: 0.4s ease;
+        }
+
+        button:hover {
+            transition: 0.4s ease;
+        }
+
+        button a {
+            font-size: 32px
+        }
+
+        @media (max-width: 1366px) {
+            h1 {
+                margin-top: 40px;
+                font-size: 60px;
+            }
+
+            .credit {
+                bottom: 0;
+            }
+
+            a {
+                margin-bottom: 50px;
+            }
+
+            button {
+                padding-top: 20px;
+            }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Qual banco deseja acessar?</h1>
+    <div class="box">
+        <a class="left" href="../php/tb_contas.php">Contas Cadastradas</a>
+        <a class="right" href="../php/tb_compra.php">Compras Registradas</a>
+    </div>
+    <button type="submit"><a href="../index.html">Voltar a Página Principal</a></button>
+    <h1 class="credit">Seja Bravery</h1>
+</body>
+</html>

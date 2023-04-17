@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravery</title>
+    <link rel="icon" type="image/x-icon" href="imagens/bravery-logo.png">
+    <link rel="stylesheet" href="compra.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Checklist</span>
+                <form action="" name="formulario" method="post">
+                    <div class="input-field">
+                        <input type="text" name="nome" id="nomeInput" placeholder="Informe o seu nome completo:" required autocomplete="off">
+                        <i class="uil uil-user icon"></i>
+                    </div>                        
+                    <div class="input-field">
+                        <input type="text" name="email" id="emailInput" placeholder="Informe o seu Email:" required autocomplete="off">
+                        <i class="uil uil-envelope icon"></i>
+                    </div>    
+                    <div class="input-field">
+                        <input type="number" name="cpf" id="cpfInput" placeholder="Informe o seu CPF:" required autocomplete="off">
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="endereco" id="senhaInput" placeholder="Informe o Endereço:" required autocomplete="off">
+                        <i class="uil uil-car icon"></i>
+                    </div>        
+                    <div class="box">
+                        <div class="input-field">
+                            <select name="estado" id="estado" placeholder="UF">
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" name="zip" id="postalInput" placeholder="Código Postal:" required autocomplete="off">
+                        <i class="uil uil-map icon"></i>
+                    </div>
+                </div>
+            </div>
+                <!--Registro de cliente-->
+                <div class="form signup">
+                <span class="title">Compra</span>
+                    <div class="img">
+                        <img src="imagens/Terno 2.png" alt="">
+                        <span class="prodName">Sceit</span>
+                        <span class="price">R$3.099,99</span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="cardName" id="nomeInput" placeholder="Nome no Cartão:" required autocomplete="off">
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" name="nCard" id="nomeInput" placeholder="Número do Cartão:" required autocomplete="off">
+                        <i class="uil uil-bill icon"></i>
+                    </div>
+                    <div class="box">
+                        <div class="input-field">
+                            <input type="number" name="exp" id="postalInput" placeholder="Validade:" required autocomplete="off">
+                            <i class="uil uil-map icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" name="cvv" id="postalInput" placeholder="CVV:" required autocomplete="off">
+                            <i class="uil uil-map icon"></i>
+                        </div>
+                    </div>
+                    <div class="input-field button">
+                        <input type="submit" value="Efetuar Compra" onclick="document.formulario.action='terno2.php'">
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>        
+</body>
+</html>

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli';
+}
+
+body {
+    background-image: url(../imagens/signup-image.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container {
+    width: 70%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.header {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3841;
+}
+
+.action {
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 4px solid #000;
+}
+
+.cart-items {
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-box {
+    width: 15%;
+    text-align: center;
+}
+   
+.about {
+    height: 100%;
+   }
+   
+.title {
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #202020;
+}
+
+.subtitle {
+    line-height: 10px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #909090;
+}
+
+.counter{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 20px;
+    font-weight: 900;
+    color: #202020;
+}
+
+.prices {
+    height: 100%;
+    text-align: right;
+   }
+
+.amount {
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: 800;
+    color: #202020;
+}
+
+.remove {
+    padding-top: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+
+hr {
+    width: 66%;
+    float: right;
+    margin-right: 5%;
+}
+
+.checkout {
+    float: right;
+    margin-right: 5%;
+    width: 28%;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal {
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.items {
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+    line-height: 10px;
+}
+
+.total-amount {
+    font-size: 36px;
+    font-weight: 900;
+    color: #202020;
+}
+
+.button {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #232533, #2a2f40);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+table {
+    position: fixed;
+    left: 25%;
+    width: 50%; /* ajusta o tamanho da tabela em largura */
+    font-size: 20px;
+    border: 1px solid #000;
+    border-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+table button {
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 4px 10px;
+    margin: 4px 0;
+    cursor: pointer;
+    align-items: center;
+    margin: 1px 0;
+    transition: 0.28s ease;
+    border-radius: 20px;
+}
+
+table button:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.28s ease;
+}
+
+.continuarComprando, .confirmCompra {
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 4px 10px;
+    margin: 4px 0;
+    cursor: pointer;
+    margin: 1px 0;
+    transition: 0.28s ease;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.continuarComprando:hover, .confirmCompra:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.28s ease;
+}
+
+.confirmCompra {
+    position: relative;
+    right: 333px;
+    top: 36.5px;
+}
+
+.linkRemover {
+    color: red;
+    text-decoration: none;
+    transition: 0.28s ease;
+}
+
+.linkRemover:hover {
+    color: #000;
+    text-decoration: underline;
+    transition: 0.28s ease;
+}
+
+@media (max-width: 1366px) {
+    table {
+        position: fixed;
+        left: 15.2%;
+        width: 69.6%; /* ajusta o tamanho da tabela em largura */
+        font-size: 20px;
+        border: 1px solid #000;
+        border-spacing: 5px;
+        padding-bottom: 10px;
+    }
+
+    .confirmCompra {
+        right: 330px;
+    }
+}
+
+@media (max-width: 1365px) {
+    .confirmCompra {
+        right: 303px;
+    }
+}

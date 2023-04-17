@@ -1,0 +1,199 @@
+CODIGOS BRAVERY
+
+
+  <div class="card">
+    <div class="left">
+      <img src="imagens/Terno 1.png" alt="terno">
+    </div>
+    <div class="right">
+      <div class="product-info">
+        <div class="product-name">
+          <h1>Bravery Saibot</h1>
+        </div>
+        <div class="details">
+          <h3>Clássicos</h3>
+          <h2>Você destacando a noite!</h2>
+          <h4><span class="fa fa-dollar"></span>3699.99</h4>
+          <h4 class="dis"><span class="fa fa-dollar"></span>4199.99</h4>
+        </div>
+        <ul>
+          <li>TAMANHO</li>
+          <li class="bg">P</li>
+          <li class="bg">M</li>
+          <li class="bg">G</li>
+          <li class="bg">GG</li>
+        </ul>
+        <span class="foot"><i class="fa fa-shopping-bag"></i>Comprar Agora</span>
+        <span class="foot"><i class="fa fa-shopping-cart"></i>Adicionar ao Carrinho</span>
+      </div>
+    </div>
+  </div>
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*product info */
+
+h1 {
+  color: #f3ffd3;
+  font-family: "muli";
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 84px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+h4 {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4.dis {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "muli";
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 30px;
+  text-decoration: line-through #ea3201;
+}
+
+h4.dis span {
+  text-decoration: line-through #ea3201;
+}
+
+.discount {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+ul li {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.bg {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 20px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+
+.bg:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.foot {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 20px;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 11px;
+  float: left;
+  transition: 0.3s all ease;
+}
+
+.foot i:nth-child(1) {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.foot:hover {
+  color: #f3ffd3;
+  cursor: pointer;
+}
+
+/*main card*/
+.card {
+  display: flex;
+  align-items: center;
+  background: #252831;
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
+  margin-top: 2%;
+}
+
+.left {
+  content: "";
+  height: 395px;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  background-color: #ff6d39;
+  margin-left: 93px;
+  border-radius: 0% 50% 50% 0%;
+  position: absolute;
+  z-index: 5;
+}
+
+.left img {
+  margin-left: -88px;
+  margin-top: 60px;
+}
+
+.right {
+  content: "";
+  height: 395px;
+  width: 550px;
+  background-color: #2a2f40;
+  z-index: 3;
+  margin-left: 200px;
+}
+
+.product-info {
+  position: absolute;
+  margin-left: 245px;
+  height: 394px;
+  width: 305px;
+  z-index: 10;
+}
