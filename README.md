@@ -6,7 +6,7 @@
 
 > Esse projeto foi desenvolvido para a disciplina Desevolvimento Web II do curso DSM (Desenvolvimento de Software Multiplataforma) na FATEC Mauá. 
 
-### Uma leve explicação do projeto
+### Uma breve apresentação do projeto
 
 Esse projeto é a continuação do meu [Primeiro Projeto Bravery](https://github.com/KevenAbraham/firstBravery), só que dessa vez melhorado e com uma cara nova e minimalista.
 
