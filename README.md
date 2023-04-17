@@ -12,7 +12,7 @@ Mantendo a mesma ideia do primeiro projeto e além do visual ter mudado, um CRUD
 
 ### Projeto funcionando
 
-Para conferir o projeto funcionando, basta clicar aqui para ir até o LinkedIn e ver uma demonstração do mesmo. 
+Para conferir o projeto funcionando, basta [clicar aqui](https://www.linkedin.com/posts/keven-abraham-de-souza-6b3820211_devs-html-css-activity-7053834225988321280-TtC9?utm_source=share&utm_medium=member_desktop) para ir até o LinkedIn e ver uma demonstração do mesmo. 
 
 ---
 
