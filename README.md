@@ -18,4 +18,4 @@ Para conferir o projeto funcionando, basta clicar aqui para ir até o LinkedIn e
 
 ---
 
-Seja Bravery
+<p style="text-align: center;">Seja Bravery</p>
