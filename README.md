@@ -2,8 +2,6 @@
 
 # Olá, seja bem-vindo(a) ao meu Projeto Bravery 2.0
 
----
-
 > Esse projeto foi desenvolvido para a disciplina Desevolvimento Web II do curso DSM (Desenvolvimento de Software Multiplataforma) na FATEC Mauá. 
 
 ### Uma breve apresentação do projeto
